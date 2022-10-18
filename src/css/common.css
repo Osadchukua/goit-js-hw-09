@@ -17,3 +17,49 @@ img {
   max-width: 100%;
 }
 
+.input {
+  margin-top: 10px;
+  /* margin-right: auto; */
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  gap: 10px;
+  text-transform: uppercase;
+  border: 10;
+  background-color: #9b9eb0;
+  /* color: #ac4c4c; */
+  padding: 20px 50%;
+  /* cursor: pointer; */
+  /* font-size: 24px; */
+  /* border-radius: 3px; */
+}
+
+.timer {
+  /* margin-top: 10px; */
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+  background-color: #afb2bb;
+  padding: 20px 50%;
+}
+
+.field {
+  padding: 0;
+  margin: 0;
+  min-width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.value {
+  display: block;
+  font-size: 30px;
+}
+
+.label {
+  font-size: 13px;
+}

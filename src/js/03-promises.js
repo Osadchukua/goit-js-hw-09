@@ -28,8 +28,8 @@ function onClick(event) {
   let step = Number(stepEl.value);
   let amount = Number(amountEl.value);
 
-  for (let i = 0; i < amount; i += 1) {
-    createPromise(i + 1, (delay + step) * i)
+  for (let i = 0; i > 0, i < amount; i += 1) {
+    createPromise(i + 1, delay + step * i)
       .then(({ position, delay }) => {
         Notiflix.Notify.success(
           `✅ Fulfilled promise ${position} in ${delay}ms`
